@@ -7,7 +7,7 @@
 <body>
 <div class="container">
     <form action="${pageContext.request.contextPath}/convert" method="post">
-        Enter temperature in Celsius: <input type="text" name="celsius" required>
+        Enter temperature in Celsius: <input type="number" name="celsius" required>
         <input type="submit" value="Convert">
     </form>
 </div>
